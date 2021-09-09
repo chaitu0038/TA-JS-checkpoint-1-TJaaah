@@ -12,6 +12,8 @@ function sum(a, b) {
 }
 ```
 
+alert( null || 2 || undefined );
+
 2. If we store the returned value of both functions above in variable `first` and `second` what will be the value of `first` and `second`.
 
 3. What will be the output when you call above `sum` function (first) with three parameter like `sum(12, 24, 35)`. Explain why?
