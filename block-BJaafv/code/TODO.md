@@ -11,16 +11,27 @@ function sum(a, b) {
   console.log(a + b);
 }
 ```
-
-alert( null || 2 || undefined );
+//There is a difference between first and second.First it error function and Second it is an function.
 
 2. If we store the returned value of both functions above in variable `first` and `second` what will be the value of `first` and `second`.
+//first: error//
+//second:ƒ sum(a, b) {
+  console.log(a + b);
+}//
 
 3. What will be the output when you call above `sum` function (first) with three parameter like `sum(12, 24, 35)`. Explain why?
+//36 and why because sum (a, b) is given as a+b in return and here in sum() c value is not given so it is not accepted.
 
 4. Can you store the first `sum` function in a variable named `add`. If yes why? If no why?
+//It can not store the function named add.
 
 5. Declare a function named `sayHello` the accepts a parameter `name` and returns the name like `Hello Arya`.
+```js 
+let name = prompt("Enter the name");
+function sayHello(name){
+  return name;
+}
+```
 
 6. What will be the output of the function below and why?
 
