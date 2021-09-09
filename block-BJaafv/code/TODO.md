@@ -29,7 +29,7 @@ function sum(a, b) {
 ```js 
 let name = prompt("Enter the name");
 function sayHello(name){
-  return name;
+  return `Hello  ${name}`;
 }
 ```
 
@@ -43,8 +43,9 @@ function showMessage() {
   return message;
 }
 
-showMessage();
+showMessage();//Hello, John
 ```
+
 
 7. What will be the output for `Output1` `Output2` and `Output3` in the code below.
 
@@ -56,11 +57,11 @@ function showMessage() {
   return message;
 }
 
-alert(userName); // Output 1
+alert(userName); // John
 
-showMessage(); // Output 2
+showMessage(); // Hello, John
 
-alert(userName); // Output 3
+alert(userName); // John
 ```
 
 8. What is a Anonymous Function give example of three functions.
