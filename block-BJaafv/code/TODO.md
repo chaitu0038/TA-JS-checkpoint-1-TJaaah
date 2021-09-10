@@ -65,8 +65,27 @@ alert(userName); // John
 ```
 
 8. What is a Anonymous Function give example of three functions.
+It is a function which cannot contain the function name is called anonymous function.
+ex:
+```js
+const addNumbers = function (numA, numB){
+  return numA + numB;
+}
+```
+
+```js
+const addNumbers = function (A, B){
+  return A + B;
+}
+```
+```js
+const subNumbers = function (numA, numB){
+  return numA - numB;
+}
+```
 
 9. Can function declaration be a Anonymous Function? Explain
+Here function declaration cannot contain `const` and here Anonymous function can contain const.
 
 10. Give 5 example of good naming convention for defining a function. You can read the details below to do that.
 
