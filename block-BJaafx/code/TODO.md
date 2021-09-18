@@ -9,10 +9,29 @@ while (i < 3) {
   i++;
 }
 ```
+error
 
 3. Write a function named `getEvenSum` that accepts a parameter `max`. Return the sum of all even numbers. The value of max should default to 10.
+```js
+function getEvenSum(max){
+  for (let max=0; max <= 10; max += 2){
+    console.log(max)
+  }
+  return;
+}
+```
 
 4. Write a function named `getOddSum` that accepts a parameter `max`. Return the sum of all odd numbers. The value of max should default to 10.
+```js
+function getEvenSum(max){
+  for (let max=0; max <= 10; max++){
+    if(max % 2 !== 0){
+      console.log(max)
+    }
+  }
+  return;
+}
+```
 
 5. Write a function named `getProductOfDigits` that accepts a parameter `num`. It returns the product of all the digits in the number.
 
@@ -34,9 +53,9 @@ function check(num) {
   return num;
 }
 
-check(10); // output
-check(1); // output
-check(5); // output
+check(10); // 'Bigger than 5'
+check(1); // 'Smaller than 5'
+check(5); // 5
 ```
 
 7. What will be the output of the following code given below? Explain the reason?
@@ -48,9 +67,9 @@ function getOutput(name) {
   return 'Who are you';
 }
 
-getOutput('Arya'); // what will be the output
-getOutput('John'); // what will be the output
-getOutput(); // what will be the output
+getOutput('Arya'); // You are arya
+getOutput('John'); // You are john
+getOutput(); // Who are you
 ```
 
 8. What will be the output of the following code given below? Explain the reason?
@@ -62,11 +81,12 @@ function getOutput(name) {
   return 'Who are you';
 }
 
-getOutput('Arya'); // what will be the output
-getOutput('John'); // what will be the output
-getOutput(); // what will be the output
+getOutput('Arya'); // You are arya
+getOutput('John'); // You are john
+getOutput(); //  'Who are you'
 ```
 
 9. Can a function have multiple return statement? Give one example if possible and explain the reason.
+Ans:Return statement can not have multiple statements because it's collect the first return value.
 
 10. What is the difference between `for` loop and `while` loop. What are the different place you can use them? Explain with example.
