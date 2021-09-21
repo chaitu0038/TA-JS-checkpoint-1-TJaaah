@@ -17,7 +17,7 @@ function getEvenSum(max){
   for (let max=0; max <= 10; max += 2){
     console.log(max)
   }
-  return;
+  return max;
 }
 ```
 
@@ -67,9 +67,9 @@ function getOutput(name) {
   return 'Who are you';
 }
 
-getOutput('Arya'); // You are arya
-getOutput('John'); // You are john
-getOutput(); // Who are you
+getOutput('Arya'); // 'You are arya'
+getOutput('John'); // 'You are john'
+getOutput(); // 'Who are you'
 ```
 
 8. What will be the output of the following code given below? Explain the reason?
